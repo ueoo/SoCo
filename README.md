@@ -6,10 +6,10 @@ By [Fangyun Wei](https://scholar.google.com/citations?user=-ncz2s8AAAAJ&hl=en)\*
 
 
 ## Introduction
-Image-level contrastive representation learning has proven to be highly effective as a generic model for transfer learning. 
+Image-level contrastive representation learning has proven to be highly effective as a generic model for transfer learning.
 Such generality for transfer learning, however, sacrifices specificity if we are interested in a certain downstream task.
 We argue that this could be sub-optimal and thus advocate a design principle which encourages alignment between the self-supervised pretext task and the downstream task.
-In this paper, we follow this principle with a pretraining method specifically designed for the task of object detection. 
+In this paper, we follow this principle with a pretraining method specifically designed for the task of object detection.
 We attain alignment in the following three aspects:
 1) object-level representations are introduced via selective search bounding boxes as object proposals;
 2) the pretraining network architecture incorporates the same dedicated modules used in the detection pipeline (e.g. FPN);
@@ -22,7 +22,7 @@ Our method, called Selective Object COntrastive learning (SoCo), achieves state-
 
 
 ## Main results
-The pretrained models and finetuned models with their logs are available on [Google Drive](https://drive.google.com/drive/folders/1-kL9v5VeWzszq8oY-v1TRuOv60PpfT8N?usp=sharing) and [Baidu Pan (code: 4662)](https://pan.baidu.com/s/1RI6vBhMKhY26Z3-HaQ8R8g)
+The pretrained models and finetuned models with their logs are available on Hugging Face 🤗: [SoCoModels](https://huggingface.co/yuegao/SoCoModels)
 > The following links are relative paths of the share folder.
 ### SoCo pre-trained models
 | Model |     Arch     | Epochs |                       Scripts                       | Pretrained Model (relative path)           |
